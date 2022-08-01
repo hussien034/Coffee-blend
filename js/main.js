@@ -31,4 +31,10 @@ $(window).scroll(function(){
     else{
         $(".navbar").css("background-color","transparent")
     }
+});
+$(document).ready(function()
+{
+    $(".wrapper").fadeOut(8000,function(){
+        $("body").css("overflow","auto")
+    })
 })
